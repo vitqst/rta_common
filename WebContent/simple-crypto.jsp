@@ -56,13 +56,13 @@ function prettyPrint() {
 			<tr>
 				<td>
 					<p>Plaintext</p>
-					<textarea id="plainTextArea" name="plaintext" cols="50" 
-					rows="5"><jsp:getProperty property="plaintext" name="cryptoBean"/></textarea>
+					<textarea id="plainTextArea" name="plaintext" cols="70" 
+					rows="20"><jsp:getProperty property="plaintext" name="cryptoBean"/></textarea>
 				</td>
 				<td>
 					<p>Cryptogram</p>
-					<textarea name="cryptogram" cols="50" 
-					rows="5"><jsp:getProperty property="cryptogram" name="cryptoBean"/></textarea>
+					<textarea name="cryptogram" cols="70" 
+					rows="20"><jsp:getProperty property="cryptogram" name="cryptoBean"/></textarea>
 				</td>
 			</tr>
 
